@@ -1,0 +1,117 @@
+﻿/*Diseño del Scroll Bar*/
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: rgba(0,0,0,0.8);
+}
+/* FIN Diseño del Scroll Bar FIN*/
+
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}    
+
+.tab-content {
+    transition: all 600ms ease;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: #fff;
+    padding: 0px;
+}
+
+/*Inicio preloader*/
+
+.preloader {
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    width: 80px;
+    height: 80px;
+    margin: -30px 0 0 -30px;
+    -webkit-animation: spin .7s linear infinite;
+    -moz-animation: spin .7s linear infinite;
+    animation: spin .7s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.preloader img {
+    width: 100%;
+}
+ 
+.TituloH2 {
+    color: white;
+    white-space: nowrap; 
+}
+
+
+.LogotipoMPA {
+    width: 12vh;
+    border-radius: 5px;
+    margin-right:5px;
+}
+
+.Recargar {
+    width: 50px;
+}
+    .Recargar:active{
+        background-color:red;
+    }
+
+    .ContentOne {
+        display: flex;
+        flex-direction: column;
+    }
+
+.ContenedorInputs {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .ContenedorInputs {
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        margin-left:-20px;
+    }
+}

@@ -1,0 +1,392 @@
+﻿/*Diseño del Scroll Bar*/
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: rgba(0,0,0,0.8);
+}
+/* FIN Diseño del Scroll Bar FIN*/
+
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}    
+
+.tabs {
+    background: #005C93;
+    display: flex;
+    color: #fff;    
+    line-height: 1.8;
+    transition: all 600ms ease;
+    transform: scale(0.90);    
+}
+
+.tab {
+    display: inline-block;
+    padding: 30px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 400ms ease; 
+}
+
+    .tab.active {
+        background-color: #007dc7;
+        transform: scale(1);
+    }
+
+    .tab:hover {
+        background-color: #007dc7;
+    }
+
+.tab-content {
+    transition: all 600ms ease;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: #fff;
+    padding: 30px;
+}
+
+.ContenedorCampos {
+    display: flex;
+    flex-direction: row;
+}
+ 
+.Campos {
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+    margin: auto
+}
+
+.CamposSuperior { 
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.CamposSuperior2 {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.CamposSuperior3 {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.CamposNota {
+    display: flex;
+    flex-direction: row;
+    max-width: 700px;
+    margin: auto
+}
+
+/*Inicio preloader*/
+
+.preloader {
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    width: 80px;
+    height: 80px;
+    margin: -30px 0 0 -30px;
+    -webkit-animation: spin .7s linear infinite;
+    -moz-animation: spin .7s linear infinite;
+    animation: spin .7s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.preloader img {
+    width: 100%;
+}
+
+/*Fin preloader*/
+
+.TituloH2 {
+    color: white;
+    white-space: nowrap; 
+}
+
+
+.LogotipoMPA {
+    width: 12vh;
+    border-radius: 5px;
+    margin-right:5px;
+}
+
+.Recargar {
+    width: 50px;
+}
+    .Recargar:active{
+        background-color:red;
+    }
+
+    .ContentOne {
+        display: flex;
+        flex-direction: column;
+    }
+
+.ContentTwo {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    text-align: center;
+    width: 100%
+}
+.ContentThree1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 42%;  
+    margin-right:3%;
+}
+
+.ContentThree2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 42%;
+    margin-left: 3%; 
+}
+
+
+/*@media screen and (max-width: 1000px) {
+    .ContentTwo {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        text-align: center;
+        width: 100%
+    }
+
+    .ContentThree1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        width: 100%; 
+        margin-right: 0%;
+    }
+    .ContentThree2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin-left: 0%; 
+    }
+
+    .TituloH2 {
+        color: white;
+        white-space: nowrap;
+        font-size:x-large;       
+    }
+
+    .LogotipoMPA {
+        width: 9vh;
+        border-radius: 5px;
+        margin-right: 5px;
+    }
+
+    .tabs {
+        background: #005C93;
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .tab {
+        display: inline-block;
+        padding: 30px;
+        color: #fff;
+        cursor: pointer;
+        transition: all 400ms ease;
+        margin-left: -32px
+    }
+
+    .ContenedorCampos {
+        display: flex;
+        flex-direction: column;
+    }     
+
+    .CamposNota {
+        display: flex;
+        flex-direction: row;
+        max-width: 700px; 
+        margin: auto
+    }
+
+    .Campos {
+        max-width:none;
+        margin:unset;
+    }
+    .CamposSuperior2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: unset;
+    }
+    .CamposSuperior3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: unset;
+    }
+    .CamposSuperior { 
+        width: 100%;
+        margin-left: 0%
+    }
+
+}*/
+
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #f0f0f0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.lbl-menu {
+    background: #005C93;
+}
+
+    .lbl-menu label {
+        display: inline-block;
+        padding: 30px;
+        color: #fff;
+        cursor: pointer;
+        margin-bottom: -10px;
+        transition: all 400ms ease;
+    }
+
+        .lbl-menu label:hover {
+            background-color: #007dc7;
+        }
+
+.content {
+    position: relative;
+}
+
+    .content div {
+        position: absolute;
+        line-height: 1.8;
+        transition: all 600ms ease;
+        visibility:hidden;
+        opacity: 0;
+        transform: scale(0.90);
+        padding: 30px;
+        background: #fff;
+        padding-bottom: 40px;
+    }
+
+#radio1, #radio2, #radio3, #radio4 {
+    display: none;
+}
+
+    #radio1:checked ~ .tab1,
+    #radio2:checked ~ .tab2,
+    #radio3:checked ~ .tab3,
+    #radio4:checked ~ .tab4 {
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1);
+    }
+
+.content div:after {
+    position: absolute;
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    bottom: 100%;
+    left: 28px;
+}
+
+.content .tab2:after {
+    left: 265px;
+}
+
+.content .tab3:after {
+    left: 405px;
+}
+
+.content .tab4:after {
+    left: 600px;
+}
+
+
+@media screen and (max-width: 840px) {
+    .content .tab2:after {
+        left: 30px;
+    }
+
+    .content .tab3:after {
+        left: 30px;
+    }
+
+    .content .tab4:after {
+        left: 30px;
+    }
+
+    .lbl-menu {
+        background: #005C93;
+        display:flex;
+        flex-direction:column;
+    }
+}*/

@@ -1,0 +1,182 @@
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\DirectorioTelefonico.exe
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\DirectorioTelefonico.deps.json
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\DirectorioTelefonico.runtimeconfig.json
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\DirectorioTelefonico.runtimeconfig.dev.json
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\DirectorioTelefonico.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\DirectorioTelefonico.pdb
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\DirectorioTelefonico.Views.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\DirectorioTelefonico.Views.pdb
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.AssemblyInfoInputs.cache
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.AssemblyInfo.cs
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.csproj.CoreCompileInputs.cache
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.RazorAssemblyInfo.cache
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.RazorAssemblyInfo.cs
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\staticwebassets\DirectorioTelefonico.StaticWebAssets.Manifest.cache
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.TagHelpers.input.cache
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.TagHelpers.output.cache
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.RazorCoreGenerate.cache
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\Razor\Views\Home\ObtenerDatos.cshtml.g.cs
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.RazorTargetAssemblyInfo.cache
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.RazorTargetAssemblyInfo.cs
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.Views.pdb
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.csproj.CopyComplete
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.pdb
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.genruntimeconfig.cache
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.csproj.AssemblyReference.cache
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\Razor\Views\Home\Inicio.cshtml.g.cs
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\Razor\Views\Home\ProbarAPI.cshtml.g.cs
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Web.Mvc.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Web.Helpers.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
+C:\Users\Cynthia Meza Retes\Desktop\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\DirectorioTelefonico.exe
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\DirectorioTelefonico.deps.json
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\DirectorioTelefonico.runtimeconfig.json
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\DirectorioTelefonico.runtimeconfig.dev.json
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\DirectorioTelefonico.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\DirectorioTelefonico.pdb
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\DirectorioTelefonico.Views.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\DirectorioTelefonico.Views.pdb
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\EntityFramework.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Humanizer.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Web.Mvc.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Web.Helpers.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.csproj.AssemblyReference.cache
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.AssemblyInfoInputs.cache
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.AssemblyInfo.cs
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.csproj.CoreCompileInputs.cache
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.MvcApplicationPartsAssemblyInfo.cache
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.RazorAssemblyInfo.cache
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.RazorAssemblyInfo.cs
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\staticwebassets\DirectorioTelefonico.StaticWebAssets.Manifest.cache
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.TagHelpers.input.cache
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.TagHelpers.output.cache
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.RazorCoreGenerate.cache
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\Razor\Views\Home\Inicio.cshtml.g.cs
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\Razor\Views\Home\ObtenerDatos.cshtml.g.cs
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\Razor\Views\Home\ProbarAPI.cshtml.g.cs
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.RazorTargetAssemblyInfo.cache
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.RazorTargetAssemblyInfo.cs
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.Views.pdb
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.csproj.CopyComplete
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.dll
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.pdb
+D:\Proyectos - Antonio\ASP NET MVC\DirectorioTelefonico\obj\Debug\netcoreapp3.1\DirectorioTelefonico.genruntimeconfig.cache

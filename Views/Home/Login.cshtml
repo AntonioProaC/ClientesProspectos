@@ -1,0 +1,144 @@
+﻿@{
+    ViewData["Title"] = "Login";
+
+    var Coord = ViewBag.LasCord;
+    var IP = ViewBag.IP;
+    var NAV = ViewBag.Navegador;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAACbUlEQVRIx7WUsU/qUBTGv96WSlWeEBZijJggxrREdwYixMnByYEyOvgfsBAMG0xuDsZ/QGc3NDFhgTioiYsmkhBYGLSBkLYR0va8gSjvQXiIT7/l5ibfOd/v3pN7gSmVSMTj8ThRfzdYk8lkMpl83/+AVFVVVXU0eHiVJEmSpB8DIcpkMplsdhCYz+fzhQJROBwOh8PDQN+oQCAQCASIRFEURZHI45GkP0/e7Xa73e70AMJnjel0Op1OA6oaDB4eAkAw6PcDvZ5t6zrw/Hx2trAw/cHYZ426ruu6DtzcGEYuBzQa19etFvD4WKtls4AoRqMPDwBjjLGPrt84ilgsFovF6EOapmmaRiP6O/jbAIguL4vFYpHGqlKpVCoVomq1Wq1Wibxer9fn+w+Q9+cUiUQikQhNrfdgWZZlWf4yyGhj27Zt254MUK/X6/X6F0aiKIqiKIOCYRmGYRjGZADLsizLIgqFQqHV1SkAnp5OTn79ItK0qyuPZ7SxaZqmaU4GKJfPzxmbfAPc/f3pqaIQLS8vLtZqgOP0bYyJoiAARC5Xrwf4/Vtbb2+Th1YqlUqlErC01GgkEkCz2WxyHLC+LsuiCAiCJLlcgM+3vd3pcBzXaJTLR0dEs7Ptdv+D4TiOG/A6DsBxQKvV621sAGtru7vl8ngAjuvXv7xcXIgiwNjMjCj2h+k4fQfPA4LA8xwHCO323V2hABiG223bwPy8xwMAbvfcHGMAY32j47y+3t4OAsZpZ2dzEwAsy7IcBxAExhwHMIxOx3GAlZVUyjT/1WFIudzenstFlEpFo9M8o+Pj/X2eJzo4SCR4fnzdb2N4Pyv9cduVAAAAAElFTkSuQmCC" rel="icon" type="image/x-icon" />
+    <link href="~/css/Login.css" rel="stylesheet" />
+    <script type="text/javascript">
+        window.history.forward();
+        function noBack() {
+            window.history.forward();
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://code.jquery.com/jquery-1.10.2.js" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+    <body class="bodyLogin" onLoad="noBack();" onpageshow="if (event.persisted) noBack();" onUnload="">
+        <div class="divlogin">
+            <br />
+            <br />
+            <br />
+            <br />
+            <form method="post">
+
+                <!-- Modal -->
+    <div class="modal fade" id="exampleModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div style="background-color: transparent; border: ridge transparent;" class="modal-content">
+                <div style="display: flex; justify-content: center; margin-top: 45%; margin-bottom: 40%;" class="modal-body" id="body">
+                    <div class="preloader"></div>
+                    <button style="display:none" id="btnCerrarCarga" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contenedor1">
+        <button style="display:none" id="btnModal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            
+        </button>
+
+        <div id="anima" class="animate__animated animate__fadeInDown">
+            <div class="contenedor2">
+                <div style="text-align:center">
+                    <img src="~/img/logo.png" style="text-align:center;  height:100px" />
+                </div>
+                <br />
+                <input style="box-shadow: 0 0 10px green; border: solid 1px green; color: green;"
+                       id="txtUsuario"
+                       name="txtUsuario"
+                       placeholder="Usuario"
+                       type="text"
+                       Class="form-control"  
+                       />
+                <br />
+                <br />
+                <div class="input-group">
+                    <input style="box-shadow: 0 0 10px green; border: solid 1px green; color: green; "
+                           id="txtPassword"
+                           type="Password"
+                           Class="form-control"
+                           autocomplete="on"
+                           placeholder="Contraseña"
+                           name="txtPassword"  
+                           />
+                           
+                    <div class="input-group-append">
+                        <button style="box-shadow: 0 0 10px green; background-color: green; border: 0px " id="ojo" class="btn btn-primary" type="button" onclick="mostrarPassword()"> <span id="espan" class="fa fa-eye"></span> </button>
+                    </div>
+                </div>
+                <br />
+                <br />
+                <div style="text-align:center">
+                    <button style="width: 70%; background-color: green; color: white; border-radius: 4px; box-shadow: 0 0 10px green; border: 0px;"
+                            type="button"
+                            class="btn-success"
+                            id="btnEntrar">
+                        <h6 style="margin:5%">Iniciar Sesion</h6>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+    <br />
+    <br />
+    <br />
+    <br />
+    </div>
+
+
+    <script type="text/javascript">
+        function get_ip(obj) {
+
+            var LaIp = document.getElementById('txtIp');
+            LaIp.value = obj.ip
+        }
+    </script>
+    <script type="text/javascript" src="https://api.ipify.org/?format=jsonp&callback=get_ip"></script>
+
+    <script>
+        var boton = document.getElementById('ojo');
+        var contra = document.getElementById('txtPassword');
+        var span = document.getElementById('espan');
+
+        boton.addEventListener('click', MostrarContra);
+
+        function MostrarContra() {
+            if (contra.type == "password") {
+                contra.type = "text";
+                span.className = "fa fa-eye-slash";
+                setTimeout("OcultarContra()", 5000);
+            } else {
+                contra.type = "password";
+                span.className = "fa fa-eye";
+            }
+        }
+        function OcultarContra() {
+            contra.type = "password";
+            span.className = "fa fa-eye";
+        }
+
+    </script>
+    
+    <script src="~/js/Logearse.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.7/dist/sweetalert2.all.min.js" integrity="sha256-oRlny88mMfxoVA0EAcCwBibDn14Ui/A9Wc8903cpHMk=" crossorigin="anonymous"></script>
+
+    </body>
+</html>
+

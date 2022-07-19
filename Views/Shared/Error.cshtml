@@ -1,0 +1,21 @@
+﻿@model ErrorViewModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<br/>
+<div style="display:flex; flex-direction:column ">
+    <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/13925320/830187480.jpg" style="width:20%" />
+    <h1 style="margin-left: 25%;" class="text-danger">Ha ocurrido un error.</h1>
+</div>
+<br />
+@if (Model.ShowRequestId)
+{
+    <p  style="margin-left: 25%;">
+        <strong>ID de solicitud:</strong> <code>@Model.RequestId</code>
+    </p>
+}
+<br />
+<h3  style="margin-left: 25%;">Intentalo de nuevo mas tarde.</h3>
+<h4  style="margin-left: 25%;">Si el problema persiste ponte en contacto con el área de desarrollo.</h4>
+

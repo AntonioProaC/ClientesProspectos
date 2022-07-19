@@ -1,0 +1,180 @@
+﻿@{
+    ViewData["Title"] = "App ClientesProspectos";
+}
+@Html.AntiForgeryToken();
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="~/css/Evaluacion.css" rel="stylesheet" />
+    <title>Directorio Telefonico</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://code.jquery.com/jquery-1.10.2.js" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.7/dist/sweetalert2.all.min.js" integrity="sha256-oRlny88mMfxoVA0EAcCwBibDn14Ui/A9Wc8903cpHMk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.7/dist/sweetalert2.all.min.js" integrity="sha256-oRlny88mMfxoVA0EAcCwBibDn14Ui/A9Wc8903cpHMk=" crossorigin="anonymous"></script>
+
+</head>
+<body style="background-color: silver;">
+
+    <input id="ideus" value="@ViewData["Usuario"]" style="display:none;" disabled="disabled" />
+
+    <script>
+        var ideus = document.getElementById('ideus')
+        if (ideus.value == "" || ideus.value == null) {
+        window.location.href = "/"
+        }
+    </script>
+
+    <div id="ElLoader" class="preloader" style="display:none;">
+        <img style=" width: 100%;" src="~/img/Loader.png" alt="">
+    </div>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="btnAbrirModal" style="display:none;">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Detalle Prospecto</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="ContenedorInputs">
+                        <div class="col" style="display:flex; flex-direction:column; margin-top:10px;">
+                            <label class="form-text">ID</label>
+                            <input id="txtIdProspecto" disabled="disabled" style="width:100px;" class="form-control" /> 
+                        </div>
+
+                        <form method="post" enctype="multipart/form-data" asp-controller="Archivos" asp-action="FileDownload">
+                            <div class="form-group"> 
+                                <div style="display:flex; flex-direction: row;">
+                                    <div class="col" style="display:flex; flex-direction:column; justify-content:center; align-items: center; width:50%; ">              
+                                        <input name="usuario" id="txtIDArchivo" style="display:none;"/>
+                                    </div>
+                                    <div style="display:flex; justify-content:center; align-items: center;">
+                                        <input type="submit" value="DescargarArchivos" class="btn btn-primary" style="background-color:green; border: solid 1px green; height:40px; "/>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="ContenedorInputs">
+                        <div class="col" style="display:flex; flex-direction:column; margin-top:10px;">
+                            <label class="form-text">Nombre</label>
+                            <input class="form-control" disabled="disabled" id="txtNombre" />
+                        </div>
+                        <div class="col" style="display:flex; flex-direction:column; margin-top:10px;">
+                            <label class="form-text">Apellido Paterno</label>
+                            <input class="form-control" disabled="disabled" id="txtAPaterno" />
+                        </div>
+                        <div class="col" style="display:flex; flex-direction:column; margin-top:10px;">
+                            <label class="form-text">Apellido Materno</label>
+                            <input class="form-control" disabled="disabled" id="txtAMaterno" />
+                        </div>
+                    </div>
+                    <div class="ContenedorInputs">
+                        <div class="col" style="display:flex; flex-direction:column; margin-top:10px;">
+                            <label class="form-text">Calle</label>
+                            <input class="form-control" disabled="disabled" id="txtCalle" />
+                        </div>
+                        <div class="col" style="display:flex; flex-direction:column; margin-top:10px;">
+                            <label class="form-text">Numero</label>
+                            <input class="form-control" disabled="disabled" id="txtNumero" />
+                        </div>
+                        <div class="col" style="display:flex; flex-direction:column; margin-top:10px;">
+                            <label class="form-text">Colonia</label>
+                            <input class="form-control" disabled="disabled" id="txtColonia" />
+                        </div>
+                    </div>
+                    <div class="ContenedorInputs">
+                        <div class="col" style="display:flex; flex-direction:column; margin-top:10px;">
+                            <label class="form-text">CP</label>
+                            <input class="form-control" disabled="disabled" id="txtCP" />
+                        </div>
+                        <div class="col" style="display:flex; flex-direction:column; margin-top:10px;">
+                            <label class="form-text">Telefono</label>
+                            <input class="form-control" disabled="disabled" id="txtTelefono" />
+                        </div>
+                        <div class="col" style="display:flex; flex-direction:column; margin-top:10px;">
+                            <label class="form-text">RFC</label>
+                            <input class="form-control" disabled="disabled" id="txtRFC" />
+                        </div>
+                    </div>
+                    <div class="ContenedorSelect" style="margin-top:20px;">
+                        <div class="form-floating" style="width:200px;">
+                            <select class="form-select" id="SelectStatus" aria-label="Floating label select example">
+                                <option value="Autorizado">Autorizado</option>
+                                <option value="Rechazado">Rechazado</option> 
+                            </select>
+                            <label for="floatingSelect">Actualizar Status</label>
+                        </div>
+                    </div>
+                    <div class="col" id="ContenedorObservaciones" style="display:none; flex-direction:column;">
+                        <label class="form-text">Observaciones</label>
+                        <textarea id="txtObservaciones" class="form-text"></textarea>
+                    </div>
+                    <button class="btn btn-primary" id="btnActualizar" style="height:40px; margin:10px; background-color:green; border: solid 1px green;">Actualizar</button>
+
+                    <button id="btnLlenarModal" style="display:none;">b</button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="display:flex; width:100%; height:10vh; justify-content:center;">
+        <div class="tab-content" style="display:flex; flex-direction:row; align-items: center; justify-content:center;  margin-top:22px; background-color:green;">
+            <h2 class="TituloH2">Evaluar</h2>
+        </div>
+    </div>
+
+    <div class="tab-content" style="margin-top:22px; background-color:#f8f9fa;" id="VistaBlanca">
+
+        <div style=" width:100%;">
+            <div class="album py-3 bg-light">
+                <div class="container">
+                    <div class="animate__animated animate__headShake">
+                        <div style="display:flex; flex-direction:row;">
+                            <div style="display:flex; justify-content:flex-start; width:50%;">
+                                <img src="~/img/regresar.png" style="height:30px; cursor:pointer; margin-bottom:20px; " onclick="location.href='/Home/Inicio'" />
+                            </div>
+                        </div>
+                        <div>
+                            <table class="table" id="TablaProspectos">
+                                <thead>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="tab-content" style="display:flex; justify-content:center; height:10vh; margin-top:22px; margin-bottom:22px;">
+        <button class="btn btn-primary" style="background-color:green; border-color:green; margin-top:13px; height:40px;" onclick="location.href='/Home/Login'">Cerrar Sesion</button>
+    </div>
+
+    <script src="~/js/Evaluacion.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.7/dist/sweetalert2.all.min.js" integrity="sha256-oRlny88mMfxoVA0EAcCwBibDn14Ui/A9Wc8903cpHMk=" crossorigin="anonymous"></script>
+
+</body>
+</html>

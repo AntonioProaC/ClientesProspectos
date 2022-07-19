@@ -1,0 +1,135 @@
+﻿@{
+    ViewData["Title"] = "App ClientesProspectos";
+} 
+@Html.AntiForgeryToken()
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+    <link href="~/css/Capturar.css" rel="stylesheet" />
+    <title>Directorio Telefonico</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://code.jquery.com/jquery-1.10.2.js" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.7/dist/sweetalert2.all.min.js" integrity="sha256-oRlny88mMfxoVA0EAcCwBibDn14Ui/A9Wc8903cpHMk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.7/dist/sweetalert2.all.min.js" integrity="sha256-oRlny88mMfxoVA0EAcCwBibDn14Ui/A9Wc8903cpHMk=" crossorigin="anonymous"></script>
+
+    <link href="~/Scripts/dropzone.min.css" rel="stylesheet" />
+    <script src="~/Scripts/dropzone.min.js"></script>
+
+</head>
+<body style="background-color: silver;">
+
+    <input id="ideus" value="@ViewData["Usuario"]" style="display:none;" disabled="disabled" />
+
+    <script>
+        var ideus = document.getElementById('ideus')
+        if (ideus.value == "" || ideus.value == null) { 
+        window.location.href = "/"
+        }
+    </script>
+
+    <div id="ElLoader" class="preloader" style="display:none;">
+        <img style=" width: 100%;" src="~/img/Loader.png" alt="">
+    </div>
+
+    @*MODAL*@
+    <!-- Button trigger modal -->
+    <button id="btnCapturarArchivos" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="display:none; margin:10px; background-color:gray; border: solid 1px gray;">Adjuntar archivos</button>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+           
+            <form method="post" enctype="multipart/form-data" asp-controller="Archivos" asp-action="FileUpload">
+                <div class="form-group"> 
+                    <div style="display:flex; flex-direction: row;">
+                        <div class="col" style="display:flex; flex-direction:column; justify-content:center; align-items: center; width:50%; border:dotted 2px green; border-radius: 10px; ">
+                            <p>Click para buscar docs.</p>                            
+                            <label class="btn btn-default btn-sm center-block btn-file">
+                              <i class="fa fa-upload fa-2x" aria-hidden="true"></i>              
+                              <input type="file" name="files" multiple style="display: none;"/>
+                            </label>                        
+                            <input name="usuario" id="IdProspectoCarpeta" style="display:none;"/>
+                        </div>
+                        <div style="display:flex; justify-content:center; align-items: center; width:50%;">
+                            <input type="submit" value="Subir" class="btn btn-primary" style="background-color:green; border: solid 1px green; height:40px; "/>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="col"> 
+                        @*<input type="submit" value="Subir" class="btn btn-primary" style="background-color:green; border: solid 1px green;"/>*@
+                    </div>
+                </div>
+            </form>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">No Subir</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    @*MODAl*@
+
+    <div style="display:flex; width:100%; height:10vh; justify-content:center;">
+        <div class="tab-content" style="display:flex; flex-direction:row; align-items: center; justify-content:center;  margin-top:22px; background-color:green;">
+            <h2 class="TituloH2">Capturar</h2>
+        </div>
+    </div>
+
+    <div class="tab-content" style="margin-top:22px; background-color:#f8f9fa;" id="VistaBlanca">
+
+        <div  style="width:100%; ">
+            <div class="animate__animated animate__headShake">
+                <div style="display:flex; flex-direction:column;">
+                    <div class="ContenedorInputs">
+                        <input class="form-control" style="margin:10px;" placeholder="Nombre" maxlength="100" id="txtNombre"/>
+                        <input class="form-control" style="margin:10px;" placeholder="APaterno" maxlength="50" id="txtAPaterno"/>
+                        <input class="form-control" style="margin:10px;" placeholder="AMaterno" maxlength="50" id="txtAMaterno"/>
+                    </div>
+                    <div class="ContenedorInputs">
+                        <input class="form-control" style="margin:10px;" placeholder="Calle" maxlength="100" id="txtCalle"/>
+                        <input class="form-control" style="margin:10px;" placeholder="Numero" type="number" min="1" max="9999" id="txtNumero"/>
+                        <input class="form-control" style="margin:10px;" placeholder="Colonia" maxlength="100" id="txtColonia"/>
+                    </div>
+                    <div class="ContenedorInputs">
+                        <input class="form-control" style="margin:10px;" placeholder="CP" type="number" min="1" max="99999" id="txtCP"/>
+                        <input class="form-control" style="margin:10px;" placeholder="Teléfono" type="number" min="1" max="999999999999" id="txtTelefono"/>
+                        <input class="form-control" style="margin:10px;" placeholder="RFC" maxlength="13" id="txtRFC"/>
+                    </div>
+                    <div style="display:flex; flex-direction:row;">
+                        <div style="display:flex; justify-content:flex-start; width:50%;">
+                            <button class="btn btn-primary" style="margin:10px; background-color:red; border: solid 1px red;" id="btnSalir">Salir</button>
+                        </div>
+                        <div style="display:flex; justify-content:flex-end; width:50%;">
+                            <button class="btn btn-primary" style="margin:10px; background-color:green; border: solid 1px green;" id="btnCapturar">Capturar</button>
+                        </div>                            
+                    </div> 
+                </div>
+            </div>
+        </div>                  
+    </div>
+
+    <div class="tab-content" style="height:10vh; margin-top:22px; margin-bottom:22px;">
+        <button class="btn btn-primary" style="background-color:green; border-color:green; margin-top:-10px;" onclick="location.href='/Home/Login'">Cerrar Sesion</button>
+    </div>
+
+    <script src="~/js/Captura.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.7/dist/sweetalert2.all.min.js" integrity="sha256-oRlny88mMfxoVA0EAcCwBibDn14Ui/A9Wc8903cpHMk=" crossorigin="anonymous"></script>
+
+</body>
+</html>
